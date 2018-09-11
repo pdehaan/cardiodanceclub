@@ -1,0 +1,22 @@
+{
+  "name": "cardiodanceclub",
+  "alias": "cardiodanceclub.com",
+  "type": "static",
+  "static": {
+    "directoryListing": false,
+    "headers": [
+      {
+        "source": "**",
+        "headers": [{
+          "key": "X-Powered-By",
+          "value": "dance"
+        }]
+      }
+    ],
+    "redirects": [
+      { "source": "ACRA", "destination": "http://unitedwejen.com/Arrowsmith" },
+      { "source": "Arrowsmith", "destination": "http://unitedwejen.com/Arrowsmith" },
+      { "source": "unitedwejen", "destination": "http://unitedwejen.com" }
+    ]
+  }
+}
